@@ -14,36 +14,48 @@ The Cricket T20 World Cup Data Analytics project focuses on analyzing data from 
 ---
 
 ## Process & Methodology:
-- **Data Collection:** Used web scraping techniques via BrightData to extract comprehensive statistics from the ESPN Cricinfo website. This included data on player performances, match results, and other key game metrics.
+- **Data Collection:** Used web scraping techniques via BrightData to extract comprehensive statistics from the ESPN Cricinfo website. This included data on player performances, match results, and other key game metrics.(http://www.espn.in/cricket/)
  - **Data Cleaning & Transformation:*** Processed and cleaned the raw data using Python and Pandas to handle inconsistencies, missing values, and optimize data for analysis. The data was then transformed into a usable format to extract key insights.
 - **Data Modeling & Analysis:** Imported the cleaned data into Power BI for further analysis. Developed DAX-based models to calculate and compare various performance indicators such as runs, wickets, economy rates, and strike rates. These models allowed for a dynamic evaluation of players and teams.
 - **Dashboard Development:** Created visually compelling and interactive dashboards in Power BI to illustrate trends, patterns, and player comparisons. These dashboards provided a comprehensive view of the tournament and helped identify the most impactful players across different scenarios.
 
 ---
 
-1. 📝Requirement Scoping
-2. 🌐Data Collection using Web Scraping from [ESPN Cricinfo](http://www.espn.in/cricket/) website
-3. 🧹Data Cleaning and Preprocessing in Pandas
-4. 🪄Data Transformation in Power Query
-5. ⚒️Data Modelling and Building Parameters in Power BI using DAX
-6. 📊Building the Dashboard in Power BI
+## Key Insights Derived:
+- Identification of top-performing players based on various performance metrics (batting, bowling, and all-rounder roles).
+- Insights into team strategies, including powerplay efficiency, middle-overs control, and death-overs impact.
+- A data-driven approach to selecting the best playing XI for any given match based on the analysis of performance indicators.
 
 ---
 
+## Technologies Used:
+- **BrightData** (Web Scraping)
+- **Python** (Pandas for Data Cleaning & Transformation)
+- **Power BI** (Data Visualization & DAX for Data Modeling)
+- **DAX** (Data Modeling and Advanced Calculations)
+
+---
+
+## Project Impact:
+This project highlights my ability to work with real-world data, apply advanced data analytics techniques, and extract actionable insights from complex datasets. It showcases my proficiency in web scraping, Python for data manipulation, and Power BI for creating data models and dashboards.
+
+Feel free to explore the project and code in detail on my GitHub:
+
+
 # Screenshots of the Dashboard:
 
-![power_hitters_and_openers](https://user-images.githubusercontent.com/81465377/211144386-48070a65-7e8b-4370-af44-121b878b554b.jpg)
+![power_hitters_and_openers](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/openers%20and%20power%20hitters.png))
 
-![hover_effect](https://user-images.githubusercontent.com/81465377/211144410-6e11c0cd-ab86-4357-b272-9019f5efa445.jpg)
+![hover_effect](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/batsman%20stats.png)
 
-![individual_stats](https://user-images.githubusercontent.com/81465377/211144427-bfb260dc-3586-4db2-879c-6d84f4e8ca2d.jpg)
+![individual_stats](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/all%20rounders.png)
 
-![anchors](https://user-images.githubusercontent.com/81465377/211144441-423d3ba3-76ab-49bf-b0d7-9b107ca2086f.jpg)
+![anchors](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/all%20rounders.png)
 
-![finishers](https://user-images.githubusercontent.com/81465377/211144456-6eb2581f-4574-4961-b693-4c8ff0dd7b19.jpg)
+![finishers](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/finishers.png)
 
-![all_rounders](https://user-images.githubusercontent.com/81465377/211144466-43003158-fe3e-41c0-b02a-ee4db2c53379.jpg)
+![all_rounders](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/all%20rounders.png)
 
-![fast_bowlers](https://user-images.githubusercontent.com/81465377/211144473-03ca6186-b8e8-419f-87a1-786f6a2d62a6.jpg)
+![fast_bowlers](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/fast%20bowlers.png)
 
-![pick_final_11](https://user-images.githubusercontent.com/81465377/211144486-4b48e1fc-fab3-4bb0-b660-7b4da5be627d.jpg)
+![pick_final_11](https://raw.githubusercontent.com/dhyeymodi2001/Cricket-T20-WorldCup-Analysis/refs/heads/main/Screenshots/playing%2011.png)
