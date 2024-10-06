@@ -7,13 +7,19 @@
 
 ---
 
-The Cricket Data Analytics🏏 project is made on T-20 Cricket World Cup Data. I have used **Power BI** for making the Dashboard. We can easily analyse the data of the matches played in the world cup. We can also choose our best playing 11 from the pool of players playing the world cup. 
+The Cricket T20 World Cup Data Analytics project focuses on analyzing data from the 2022 T20 World Cup to uncover insights and trends in player and team performances. I independently designed and implemented this data-driven project to evaluate match statistics and determine the optimal playing XI based on performance metrics.
 
 > To interact with the dashboard you can download the pbix file from the repository and open it in Power BI Desktop locally.
 
 ---
 
-# Steps involved in the project:
+## Process & Methodology:
+- **Data Collection:** Used web scraping techniques via BrightData to extract comprehensive statistics from the ESPN Cricinfo website. This included data on player performances, match results, and other key game metrics.
+ - **Data Cleaning & Transformation:*** Processed and cleaned the raw data using Python and Pandas to handle inconsistencies, missing values, and optimize data for analysis. The data was then transformed into a usable format to extract key insights.
+- **Data Modeling & Analysis:** Imported the cleaned data into Power BI for further analysis. Developed DAX-based models to calculate and compare various performance indicators such as runs, wickets, economy rates, and strike rates. These models allowed for a dynamic evaluation of players and teams.
+- **Dashboard Development:** Created visually compelling and interactive dashboards in Power BI to illustrate trends, patterns, and player comparisons. These dashboards provided a comprehensive view of the tournament and helped identify the most impactful players across different scenarios.
+
+---
 
 1. 📝Requirement Scoping
 2. 🌐Data Collection using Web Scraping from [ESPN Cricinfo](http://www.espn.in/cricket/) website
